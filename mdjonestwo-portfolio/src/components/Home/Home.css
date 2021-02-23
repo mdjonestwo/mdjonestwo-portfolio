@@ -1,0 +1,19 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 40px;
+}
+
+.image-wrap {
+  grid-column: 2/3;
+}
+
+.text-wrap {
+  grid-column: 8/11;
+}
