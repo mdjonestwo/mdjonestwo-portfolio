@@ -4,16 +4,30 @@
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
+.bigWrapper {
+  height: 100vh;
+  width: 100vw;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+}
+
 .wrapper {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  padding: 40px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.wrapper img {
+  margin: 40px;
+}
+.wrapper2 {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
-.image-wrap {
-  grid-column: 2/3;
-}
-
-.text-wrap {
-  grid-column: 8/11;
+.wrapper2 img {
+  margin: 10px 40px 10px 40px;
 }

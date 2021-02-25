@@ -1,0 +1,35 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Barlow Condensed, sans-serif;
+  color: whitesmoke;
+}
+
+.aboutMe {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.aboutMeTitle {
+  grid-column: 10/11;
+  color: palevioletred;
+  padding: 0;
+}
+
+.aboutMeBody {
+  grid-column: 10/12;
+  width: 900px;
+  font-size: 22px;
+  margin-right: 40px;
+}
+
+.aboutImg {
+  grid-column: 1/4;
+}
+
+.aboutLeft {
+  display: grid;
+}

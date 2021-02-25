@@ -4,7 +4,7 @@ import React, { Component } from "react";
 export default class WelcomeTest extends Component {
   state = {
     peace: ["Yo.", "Hey!", "Greetings!", "Whats Good?", "Peace.", "Welcome."],
-    peaceChoice: "Peace",
+    peaceChoice: "Peace.",
   };
 
   handlePeaceClick = () => {
@@ -18,11 +18,16 @@ export default class WelcomeTest extends Component {
     return (
       <>
         <div className="container">
-          <h1>{this.state.peaceChoice}</h1>
-          <button type="button" onClick={this.handlePeaceClick}>
-            Change Greeting
-          </button>
-          <h4>Welcome to my website</h4>
+          <a
+            href="#"
+            className="main-greeting"
+            type="button"
+            onClick={this.handlePeaceClick}
+          >
+            {this.state.peaceChoice}
+          </a>
+          <h4>My name is Michael Jones.</h4>
+          <h4>I am a Full Stack Web Developer</h4>
         </div>
       </>
     );

@@ -1,22 +1,37 @@
 * {
   padding: 0;
   margin: 0;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-family: Barlow Condensed, sans-serif;
+  color: whitesmoke;
 }
 
 .container {
+  height: 100vh;
+  width: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: burlywood;
+  background-color: black;
 }
 
 h1 {
-  color: brown;
+  color: whitesmoke;
   font-size: 300px;
 }
 
 h4 {
-  font-size: 100px;
+  font-size: 50px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: gold;
+}
+
+.main-greeting {
+  font-size: 150px;
 }
