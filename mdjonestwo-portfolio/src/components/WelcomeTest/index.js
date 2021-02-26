@@ -26,8 +26,8 @@ export default class WelcomeTest extends Component {
           >
             {this.state.peaceChoice}
           </a>
-          <h4>My name is Michael Jones.</h4>
-          <h4>I am a Full Stack Web Developer</h4>
+          <h4>My name is Michael Jones,</h4>
+          <h4>I am a Full Stack Web Developer.</h4>
         </div>
       </>
     );

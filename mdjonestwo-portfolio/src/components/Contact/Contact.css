@@ -1,0 +1,14 @@
+.title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.title a {
+  font-size: 36px;
+}
+
+.title p {
+  font-size: 36px;
+}

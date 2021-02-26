@@ -5,7 +5,7 @@ function Home() {
     <>
       <div className="bigWrapper">
         <div className="title">
-          <h4>Portfolio</h4>
+          <h4>Projects</h4>
         </div>
 
         <div className="wrapper">

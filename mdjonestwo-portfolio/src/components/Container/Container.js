@@ -4,6 +4,8 @@ import Navbar from "../Navbar/index";
 import WelcomeTest from "../WelcomeTest";
 import Home from "../Home";
 import About from "../About";
+import Skills from "../Skills";
+import Contact from "../Contact";
 
 function Container() {
   const theme = useContext(colorContext);
@@ -15,6 +17,8 @@ function Container() {
         <WelcomeTest />
         <About />
         <Home />
+        <Skills />
+        <Contact />
       </div>
       ;
     </>

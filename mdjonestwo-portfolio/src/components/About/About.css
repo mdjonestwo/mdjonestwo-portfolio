@@ -22,10 +22,12 @@
 .aboutMeBody {
   grid-column: 10/12;
   width: 900px;
-  font-size: 22px;
   margin-right: 40px;
 }
 
+.aboutMeBody p {
+  font-size: 40px;
+}
 .aboutImg {
   grid-column: 1/4;
 }
